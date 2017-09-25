@@ -1,10 +1,10 @@
 {
   "name": "flexiblejs",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Build flexible page on mobile platform",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weizihua/flexiblejs"
+    "url": "https://github.com/weizihua/flexiblejs.git"
   },
   "keywords": [
     "lib",
