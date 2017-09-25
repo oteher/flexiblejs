@@ -1,7 +1,11 @@
 {
-  "name": "jinr-flexible",
-  "version": "0.0.1",
+  "name": "flexiblejs",
+  "version": "1.0.0",
   "description": "Build flexible page on mobile platform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizihua/flexiblejs"
+  },
   "keywords": [
     "lib",
     "amfe",
@@ -11,17 +15,13 @@
     "rem",
     "vw"
   ],
-  "homepage": "https://github.com/amfe/lib-flexible",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:amfe/lib-flexible.git"
+  "author": "weizihua <weizihuaing@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/weizihua/flexiblejs/issues"
   },
-  "author": [
-    {
-      "name": "weizihua",
-      "email": "weizihuaing@gmail.com"
-    }
-  ],
+  "license": "MIT",
+  "homepage": "https://github.com/weizihua/flexiblejs#readme",
+  "main": "index.js",
   "scripts": {
     "compress": "uglifyjs index.js -o index.min.js -c -m"
   },
@@ -32,6 +32,5 @@
     "gulp-plumber": "^1.1.0",
     "gulp-stylus": "^2.6.0",
     "uglify-js": "^3.0.27"
-  },
-  "license": "MIT"
+  }
 }
