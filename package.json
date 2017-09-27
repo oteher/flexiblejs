@@ -23,14 +23,21 @@
   "homepage": "https://github.com/weizihua/flexiblejs#readme",
   "main": "index.js",
   "scripts": {
-    "compress": "uglifyjs index.js -o index.min.js -c -m"
+    "build": "node build/build.js"
   },
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-stylus": "^2.6.0",
-    "uglify-js": "^3.0.27"
+    "rollup": "^0.43.0",
+    "rollup-plugin-babel": "^2.7.1"
   }
 }
